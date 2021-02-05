@@ -3,18 +3,21 @@ header{
     top: 0%;
     left: 0%;
     display: inline-flex;
-    width: 100%;
-
     background: #131313;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    
 }
 
-header>p {
+header>p,a,button {
     position: relative;
     font-family: Nunito Sans;
     font-size: 11px;
-    line-height: 15px;
     text-transform: uppercase;
     color: white;
+    margin: 1% 1.6%;
+
     
 }
 .project{
@@ -24,6 +27,7 @@ header>p {
 .button{
     background-color: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    padding: .5vw;
     border-radius: 2px;
     color: white;
 }

@@ -40,6 +40,9 @@ body * {
 .phone{
   color:#e3b873;
 }
+.header-navigation__item {
+  margin-right: 47px;
+}
 .header-navigation__item > a {
   text-decoration: none;
   color: white;
@@ -64,7 +67,7 @@ body * {
   position: relative;
   z-index: 1;
 }
-@media only screen and (min-width: 769px){
+/* @media only screen and (min-width: 769px){ */
   .title {
     margin: 0;
     font-family: Yeseva One, "Times New Roman", Times, serif;
@@ -76,7 +79,7 @@ body * {
 
     color: #ffffff;
   }
-}
+/* } */
 .intext{
   color:#e3b873;
 }
@@ -84,7 +87,7 @@ body * {
   max-width: 504px;
 }
 .paragraph{
-  font-family: Nunito Sans;
+  font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -99,7 +102,7 @@ body * {
 }
 .title-wrapper-buttons{
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
 }
 /*style the phone*/
 @media only screen and (max-width: 768px) {
@@ -139,5 +142,14 @@ body * {
     text-transform: uppercase;
   
     color: #ffffff;
+  }
+}
+@media only screen and (max-width: 768px){
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 57px;
+    align-items: center;
+    font-size: 11px;
   }
 }

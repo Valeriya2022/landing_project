@@ -101,8 +101,10 @@ body * {
   background-color: rgba(0, 0, 0, 0);
 }
 .title-wrapper-buttons{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vw;
 }
 /*style the phone*/
 @media only screen and (max-width: 768px) {
@@ -113,6 +115,7 @@ body * {
 @media only screen and (max-width: 768px) {
   .header-navigation>.phone {
     color: white;
+    margin-right: 0px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -120,36 +123,38 @@ body * {
     display: none;
   }
 }
-@media only screen and (max-width: 768px){
-  .container {
-    max-width: 339px;
+@media only screen and (max-width: 768px) {
+  .header {
     margin: 0 auto;
   }
 }
 @media only screen and (max-width: 768px){
-  .header-navigation__item {
-    margin-right: 47px;
-  }
-}
-@media only screen and (max-width: 768px){
   .title {
-    margin: 0;
     font-family: Yeseva One, "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 23px;
+    line-height: 30px;
     text-transform: uppercase;
-  
-    color: #ffffff;
+
   }
 }
 @media only screen and (max-width: 768px){
   .header-content {
-    display: flex;
-    justify-content: space-between;
     height: 57px;
     align-items: center;
     font-size: 11px;
+    line-height: 18px;
+    max-width: 339px;
+    justify-content: space-around;
+    margin: 0 auto;
   }
 }
+@media only screen and (max-width: 768px){
+  .title-wrapper{
+    max-width: 339px;
+    margin: auto auto;
+  }
+}
+
+

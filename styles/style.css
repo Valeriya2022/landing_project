@@ -110,6 +110,36 @@ body * {
   background-color: #131313;
 
 }
+.projects{
+  display: grid;
+
+}
+.mobile-image{
+  display: none;
+}
+.subtitle{
+  font-size: 18px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  margin: 70px auto 35px;
+}
+.image-info-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75px 75 px;
+  margin: 0px auto;
+}
+
+
+@media only screen and (min-width: 769px) {
+  .completed-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
 /*style the phone*/
 @media only screen and (max-width: 768px) {
   nav>.header-navigation {
@@ -144,6 +174,11 @@ body * {
   }
 }
 @media only screen and (max-width: 768px){
+  .short-title {
+    padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 768px){
   .header-content {
     height: 57px;
     align-items: center;
@@ -156,8 +191,41 @@ body * {
 }
 @media only screen and (max-width: 768px){
   .title-wrapper{
-    max-width: 339px;
+    max-width: 340px;
     margin: auto auto;
+  }
+}
+@media only screen and (max-width: 768px){
+  .paragraph{
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .paragraph-2{
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .completed-projects-info{
+    text-align: center;
+    margin: 36px auto;
+  }
+}
+@media only screen and (max-width: 768px){
+  .mobile-image{
+    display: grid;
+  }
+}
+@media only screen and (max-width: 768px){
+  .desktop-image{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .subtitle{
+    font-size: 14px;
   }
 }
 

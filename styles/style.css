@@ -187,7 +187,17 @@ body * {
     grid-gap: 50px;
   }
 }
+.input-title{
+  font-size: 13px;
+  line-height: 21px;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.5);
+}
+.online-control-input-wrapper{
+  
+}
 /*style the phone*/
+
 @media only screen and (max-width: 768px) {
   nav > .header-navigation {
     display: none;
@@ -253,6 +263,11 @@ body * {
   }
 }
 @media only screen and (max-width: 768px) {
+  .paragraph-3 {
+    color: white;
+  }
+}
+@media only screen and (max-width: 768px) {
   .completed-projects-info {
     text-align: center;
     margin: 36px auto;
@@ -266,6 +281,8 @@ body * {
 @media only screen and (max-width: 768px) {
   .mobile-image {
     display: grid;
+    max-width: 100%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -290,7 +307,37 @@ body * {
 }
 @media only screen and (max-width: 768px) {
   .online-control-img {
-    width: 340px;
-    height: 207px;
+    max-width: 100%;
+    height: auto;
   }
+}
+@media only screen and (max-width: 768px) {
+.projects {
+  display: grid;
+  background-color: #131313;
+  padding-bottom: 1000px;
+}
+}
+@media only screen and (max-width: 768px) {
+.online-control {
+  margin-top: -1000px;
+}
+}
+@media only screen and (max-width: 768px) {
+.online-control-paragraph-wrapper {
+  max-width: 340px;
+  margin: 51px auto;
+}
+}
+@media only screen and (max-width: 768px) {
+  .margin-mobile{
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+.container {
+  max-width: 340px;
+  margin-right: 3%;
+  margin-left: 3%;
+}
 }

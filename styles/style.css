@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Nunito Sans;
+  display:flexbox;
+
 }
 body * {
   box-sizing: border-box;
@@ -19,6 +21,8 @@ body * {
 .container {
   max-width: 1256px;
   margin: 0 auto;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .logo {
   color: #e3b873;
@@ -69,7 +73,6 @@ body * {
 }
 /* @media only screen and (min-width: 769px){ */
 .title {
-  margin: 0;
   font-family: Yeseva One, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
@@ -179,6 +182,9 @@ body * {
   width: 817px;
   height: 434px;
 }
+.footer{
+  position: static;
+}
 @media only screen and (min-width: 769px) {
   .completed-projects {
     display: grid;
@@ -190,13 +196,36 @@ body * {
 .input-title{
   font-size: 13px;
   line-height: 21px;
-  text-align: start;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 60px;
 }
 .online-control-input-wrapper{
+  display: grid;
+  columns: 1fr;
+  rows: auto;
+  text-align: left;
+}
+.online-control-checkbox{
+  padding-top: 25px;
+}
+.online-control-checkbox input:checked ~ .checkmark {
+  background-color: #E3B873;
+}
+.text-input{
+  padding:8px;
+  display:block;
+  border:none;
+  background-color: #131313;
+  border-bottom:1px solid #ccc;
+  width:100%;
   
 }
 /*style the phone*/
+.text-input::placeholder{
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+font-size: 14px;
+}
 
 @media only screen and (max-width: 768px) {
   nav > .header-navigation {
@@ -275,7 +304,7 @@ body * {
 }
 @media only screen and (max-width: 768px) {
   .image-info-wrapper {
-    margin: 0px auto;
+    margin: 20px auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -331,13 +360,11 @@ body * {
 }
 @media only screen and (max-width: 768px) {
   .margin-mobile{
-    margin: 20px auto;
+    margin: 0px auto;
   }
 }
 @media only screen and (max-width: 768px) {
 .container {
   max-width: 340px;
-  margin-right: 3%;
-  margin-left: 3%;
 }
 }

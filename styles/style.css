@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: Nunito Sans;
-  display:flexbox;
-
+  display: flexbox;
 }
 body * {
   box-sizing: border-box;
@@ -127,7 +126,7 @@ body * {
 .projects {
   display: grid;
   background-color: #131313;
-  padding-bottom: 416px;
+  padding-bottom: 380px;
 }
 .mobile-image {
   display: none;
@@ -182,7 +181,7 @@ body * {
   width: 817px;
   height: 434px;
 }
-.footer{
+.footer {
   position: static;
 }
 @media only screen and (min-width: 769px) {
@@ -193,38 +192,76 @@ body * {
     grid-gap: 50px;
   }
 }
-.input-title{
+
+.online-control-input-wrapper {
+  display: grid;
+  max-width: 817px;
+  grid-template-rows: repeat(2, 30px);
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-flow: column;
+  column-gap: 100px;
+  text-align: left;
+  margin: 0 auto;
+}
+.input-title {
   font-size: 13px;
   line-height: 21px;
-  color: rgba(255, 255, 255, 0.5);
-  margin-top: 60px;
+  color: rgba(54, 54, 54, 0.5);
 }
-.online-control-input-wrapper{
-  display: grid;
-  columns: 1fr;
-  rows: auto;
-  text-align: left;
+.text-input::placeholder {
+  color: #131313;
+  font-size: 14px;
 }
-.online-control-checkbox{
+
+.online-control-checkbox {
   padding-top: 25px;
 }
-.online-control-checkbox input:checked ~ .checkmark {
-  background-color: #E3B873;
+.text-input {
+  display: block;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
 }
-.text-input{
-  padding:8px;
-  display:block;
-  border:none;
-  background-color: #131313;
-  border-bottom:1px solid #ccc;
-  width:100%;
-  
+
+.online-control-input-wrapper > .title-wrapper-buttons {
+  margin-top: -30px;
 }
-/*style the phone*/
-.text-input::placeholder{
+.types-of-repair {
+  margin-top: 400px;
+}
+.title-black {
+  color: #181818;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.checkbox-label {
+  margin: 80px -350px;
+}
+label > input[type="checkbox"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: text-top;
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  border-color: #131313;
+}
+label > input[type="checkbox"]:checked + *::before {
+  border-style: solid;
+  border-width: 1px;
+  content: "✓";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
   color: white;
-  font-family: "Nunito Sans", sans-serif;
-font-size: 14px;
+  background: #e3b873;
+  border-color: #e3b873;
+  vertical-align: text-top;
 }
 
 @media only screen and (max-width: 768px) {
@@ -232,12 +269,7 @@ font-size: 14px;
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
-  .header-navigation > .phone {
-    color: white;
-    margin-right: 0px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .header-navigation > .button {
     display: none;
@@ -341,30 +373,84 @@ font-size: 14px;
   }
 }
 @media only screen and (max-width: 768px) {
-.projects {
-  display: grid;
-  background-color: #131313;
-  padding-bottom: 1000px;
-}
-}
-@media only screen and (max-width: 768px) {
-.online-control {
-  margin-top: -1000px;
-}
+  .projects {
+    display: grid;
+    background-color: #131313;
+    padding-bottom: 730px;
+  }
 }
 @media only screen and (max-width: 768px) {
-.online-control-paragraph-wrapper {
-  max-width: 340px;
-  margin: 51px auto;
-}
+  .online-control {
+    margin-top: -730px;
+  }
 }
 @media only screen and (max-width: 768px) {
-  .margin-mobile{
+  .online-control-paragraph-wrapper {
+    max-width: 340px;
+    margin: 51px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .margin-mobile {
     margin: 0px auto;
   }
 }
 @media only screen and (max-width: 768px) {
-.container {
-  max-width: 340px;
+  .container {
+    max-width: 340px;
+  }
 }
+@media only screen and (max-width: 768px) {
+  .online-control-input-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .input-title {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .online-control-checkbox {
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-input {
+    display: block;
+    border: none;
+    background-color: #131313;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-input::placeholder {
+    color: white;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-input[placeholder]:focus {
+    color: white;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-input:focus {
+    background-color: #131313;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .online-control-input-wrapper > .title-wrapper-buttons {
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .checkbox-label {
+    margin: 25px 0 0;
+  }
 }

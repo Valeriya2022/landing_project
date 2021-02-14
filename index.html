@@ -141,7 +141,7 @@
                 <div class="types-of-repair-header">
                     <h1 class="title-20px title title-black container">Types of repair</h1>
                 </div>
-                <div class="types-of-repair-main container">
+                <div class="container types-of-repair-main ">
                     <div class="types-of-repair-info">
                         <div class="types-of-repair-photo-1">
                             
@@ -339,27 +339,50 @@
             </div>
         </section>
         <section class="questions container">
-            <form class="repair-input-wrapper margin-mobile">
+            <div class="questions-container">
+            <form class="repair-input-wrapper margin-mobile questions-wrapper">
                 <h1 class="title-20px title questions-title">have any questions?</h1>
-                <label class="paragraph repair-input-title">Name</label>
-                <input class="repair-text-input" type="text" name="name" placeholder="What is your name:">
-                <label class="paragraph repair-input-title">Number</label>
-                <input class="repair-text-input" type="text" name="name" placeholder="Your phone number:">
-                <label class="paragraph repair-input-title">Email</label>
-                <input class="repair-text-input" type="text" name="name" placeholder="Your email:">
-                  <label class="repair-checkbox-label paragraph paragraph-2">
+                <div class="questions-input-desktop">
+                    <div class="label-input-question">
+                        <label class="paragraph repair-input-title">Name</label>
+                        <input class="repair-text-input" type="text" name="name" placeholder="What is your name:">
+                    </div>
+                    <div class="label-input-question">
+                         <label class="paragraph repair-input-title">Number</label>
+                        <input class="repair-text-input" type="text" name="name" placeholder="Your phone number:">
+                    </div>
+                   
+                </div>
+                
+                <label class="paragraph repair-input-title">Question</label>
+                <input class="repair-text-input" type="text" name="name" placeholder="I want to know:">
+                  <label class="questions-checkbox-label paragraph paragraph-2">
                     <input type="checkbox" />
                     <span></span>
                     I agree to the processing of personal data
                 </label>
-                <div class="title-wrapper-buttons repair-title-wrapper">
-                    <button class="button">Call the measurer</button>
+                <div class="title-wrapper-buttons title-wrapper question-button">
+                    <button class="button">Submit</button>
                 </div>
             </form>
-
+        </div>
         </section>
+        <section class="map">
+            <div class="container hero-container">
+                <div class="map-wrapper">
+                    <h1 class="map-title">
+                        Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29
+                    </h1>
+                    <img src="images/map.png" alt="map" class="map-img">
+                </div>
+                
+                
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+       
 
-        <!-- <footer>
+        <footer>
             <header class="header">
                 <div class="container header-content margin-mobile">
                     <div class="logo">
@@ -382,6 +405,6 @@
                     </div>
                 </div>
             </header>
-        </footer> -->
+        </footer>
     </body>
 </html>

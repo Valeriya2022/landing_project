@@ -18,7 +18,7 @@ body * {
   font-style: italic;
 }
 .container {
-  max-width: 1256px;
+  max-width: 1300px;
   margin: 0 auto;
   padding-left: 3%;
   padding-right: 3%;
@@ -328,7 +328,7 @@ label > input[type="checkbox"]:checked + *::before {
   grid-template-rows: auto;
   grid-auto-flow: row;
   text-align: left;
-  padding: 0 50px;
+  padding: 0 50px 20px;
 }
 .repair-input-title {
   color: rgba(255, 255, 255, 0.5);
@@ -480,13 +480,55 @@ ul {
   margin-top: -120px;
   margin-bottom: 120px;
 }
-.questions {
+@media only screen and (min-width: 769px) {
+  .questions {
+    max-width: 883px;
+    position: relative;
+    z-index: 1;
+  }
+}
+.questions-container {
   background-color: #131313;
-  max-width: 883px;
-  padding: 20px 10%;
 }
 .questions-title {
-  margin: 34px auto;
+  margin: 34px auto 0;
+}
+.question-button {
+  margin: 20px auto;
+}
+.questions-input-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+.questions-wrapper {
+  margin-bottom: -200px;
+}
+
+.questions-checkbox-label {
+  margin: 20px auto;
+}
+.map {
+  background-image: url("../images/image-map-bacground.jpg");
+  background-size: cover;
+  height: 850px;
+  position: relative;
+}
+.map-title {
+  font-family: Yeseva One;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin: 52px auto 75px;
+  max-width: 590px;
+}
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+  margin: 0 0;
+  justify-content: center;
 }
 @media only screen and (max-width: 768px) {
   nav > .header-navigation {
@@ -736,6 +778,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: -120px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -746,6 +789,81 @@ ul {
 }
 @media only screen and (max-width: 768px) {
   .clients {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .questions {
+    background-color: #131313;
+    max-width: 883px;
+    padding: 130px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .questions-title {
+    margin: 34px auto 0;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .questions-input-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .label-input-question {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .questions-checkbox-label {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .question-button {
+    margin: 0 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map {
+    background-image: none;
+    background-color: #131313;
+    height: 480px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map > .hero-overlay {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .questions-wrapper {
+    margin-bottom: -150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map-title {
+    font-size: 18px;
+    margin: 50px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map-wrapper {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map-img {
+    margin-top: 50px;
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer {
     display: none;
   }
 }

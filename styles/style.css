@@ -87,6 +87,7 @@ body * {
 }
 .title-wrapper {
   max-width: 504px;
+  margin-top: 50px;
 }
 .paragraph {
   font-family: "Nunito Sans", sans-serif;
@@ -137,12 +138,9 @@ body * {
 }
 .title2 {
   font-size: 27px;
+  line-height: 37px;
 }
-.images {
-  /* display: flex;
-  justify-content: center;
-  margin: 70px auto 35px; */
-}
+
 .image-info-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -152,9 +150,6 @@ body * {
 .project-nav__item {
   margin-right: 78px;
   font-size: 14px;
-}
-.title-wrapper {
-  margin-top: 50px;
 }
 .online-control-paragraph-wrapper {
   max-width: 680px;
@@ -311,7 +306,188 @@ label > input[type="checkbox"]:checked + *::before {
   border-color: #e3b873;
   vertical-align: text-top;
 }
+.types-of-repair-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 250px;
+  column-gap: 40px;
+  margin-bottom: 300px;
+}
 
+.types-of-repair-tips {
+  background-image: url("../images/image-6.1.png");
+  height: 550px;
+}
+.types-of-repair-request {
+  background-color: #131313;
+  height: 550px;
+}
+.repair-input-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  text-align: left;
+  padding: 0 50px;
+}
+.repair-input-title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.repair-text-input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.repair-text-input[placeholder]:focus {
+  color: white;
+}
+
+.repair-text-input:focus {
+  background-color: #131313;
+}
+.repair-text-input {
+  display: block;
+  border: none;
+  background-color: #131313;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.repair-paragraph {
+  font-size: 18px;
+  margin: 28px 20% 0;
+  text-align: center;
+}
+.repair-checkbox-label {
+  margin-top: 17px;
+}
+.repair-title-wrapper {
+  margin: 50px 0 0 50%;
+}
+.repair-title-wrapper > .button {
+  padding: 13px 5px;
+}
+.repair-li-tips {
+  margin-top: 25px;
+  margin-bottom: 120px;
+  line-height: 19px;
+}
+ol {
+  counter-reset: item;
+  margin: 0;
+  padding-left: 120px;
+}
+ol > li {
+  counter-increment: item;
+  list-style: none inside;
+  margin: 30px 0;
+  overflow: hidden;
+  font-size: 16px !important;
+  line-height: 1.3;
+}
+ol > li:before {
+  content: counter(item, decimal-leading-zero) " ";
+  margin-right: 20px;
+  padding: 8px;
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 22px;
+  background: #e3b873;
+  color: #fff;
+  text-align: center;
+  font: 20px "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  float: left;
+}
+.fantasies {
+  background-image: url("../images/image-5.1.png");
+  background-size: cover;
+  height: 864px;
+  padding-top: 194px;
+  position: relative;
+}
+.fantisies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.fantasies-title {
+  line-height: 37px;
+  font-size: 27px;
+  margin-right: 30px;
+}
+.styles {
+  margin-top: -100px;
+}
+.fantasies-images {
+  margin: 19px 19px;
+}
+.image-col-1 {
+  margin-top: -265px;
+}
+.image-col-2 {
+  margin-top: -324px;
+}
+ul {
+  padding-inline-start: 0;
+}
+.fantasies-list-item {
+  margin: 15px 0 0 0;
+  list-style-type: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: white;
+}
+.fantasies-list-item-selected {
+  color: #e3b873;
+  text-decoration: underline;
+}
+.fantasies-mobile {
+  display: none;
+}
+.clients {
+  margin-top: 100px;
+}
+.clients-paragraph-wrapper {
+  max-width: 476px;
+  margin: 65px auto;
+}
+.clients-name {
+  line-height: 22px;
+  margin: auto 2%;
+}
+.clients-header {
+  display: flex;
+}
+.client-image {
+  border-radius: 50%;
+}
+.client-info {
+  font-size: 13px;
+  color: #959595;
+}
+.client-grid {
+  grid-gap: 20px 105px;
+}
+.button-client {
+  margin-top: -120px;
+  margin-bottom: 120px;
+}
+.questions {
+  background-color: #131313;
+  max-width: 883px;
+  padding: 20px 10%;
+}
+.questions-title {
+  margin: 34px auto;
+}
 @media only screen and (max-width: 768px) {
   nav > .header-navigation {
     display: none;
@@ -527,7 +703,7 @@ label > input[type="checkbox"]:checked + *::before {
     background-color: white;
     height: 286px;
     margin: -150px 15% 0 0;
-    padding-left: 34px;
+    padding-left: 32px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -542,5 +718,34 @@ label > input[type="checkbox"]:checked + *::before {
   .button-repair {
     font-size: 13px;
     padding: 13px 2px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .types-of-repair-2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fantasies {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fantasies-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fantasies-title {
+    text-align: center;
+    margin: 0 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .clients {
+    display: none;
   }
 }

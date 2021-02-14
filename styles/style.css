@@ -177,6 +177,10 @@ body * {
   margin: 0 auto 80px;
   font-size: 20px;
 }
+.title-18px {
+  margin: 0 auto;
+  font-size: 18px;
+}
 .online-control-img {
   width: 817px;
   height: 434px;
@@ -228,10 +232,54 @@ body * {
   margin-top: -30px;
 }
 .types-of-repair {
-  margin-top: 400px;
+  margin-top: 547px;
 }
 .title-black {
   color: #181818;
+  font-weight: bold;
+}
+.types-of-repair-header {
+  text-align: center;
+}
+.types-of-repair-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+.types-of-repair-photo-1 {
+  background-image: url("../images/image.jpg");
+  height: 420px;
+}
+.types-of-repair-photo-2 {
+  background-image: url("../images/image-2.jpg");
+  height: 420px;
+}
+.types-of-repair-photo-3 {
+  background-image: url("../images/image-3.jpg");
+  height: 420px;
+}
+.types-of-repair-info-block {
+  background-color: white;
+  height: 286px;
+  margin: -127px 30px;
+  padding: 15px 0 0 34px;
+}
+.types-of-repaid-list {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  line-height: 30px;
+  padding-inline-start: 17px;
+}
+.types-of-repaid-list > li {
+  font-size: 13px;
+  color: #959595;
+}
+.types-of-repair-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 140px 30px 0;
+  width: 228px;
 }
 input[type="checkbox"] {
   display: none;
@@ -452,5 +500,47 @@ label > input[type="checkbox"]:checked + *::before {
 @media only screen and (max-width: 768px) {
   .checkbox-label {
     margin: 25px 0 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .types-of-repair {
+    margin-top: 400px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .types-of-repair-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 70px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title-18px {
+    font-size: 15px;
+    font-family: Yeseva One;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .types-of-repair-info-block {
+    background-color: white;
+    height: 286px;
+    margin: -150px 15% 0 0;
+    padding-left: 34px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .types-of-repair-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: -25px 30px 0;
+    width: 152px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button-repair {
+    font-size: 13px;
+    padding: 13px 2px;
   }
 }

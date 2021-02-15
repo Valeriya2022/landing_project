@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   display: flexbox;
 }
 body * {
@@ -56,6 +56,18 @@ body * {
   height: 707px;
   padding-top: 194px;
   position: relative;
+}
+.video {
+  background-image: url("../images/image_6.png");
+  background-size: cover;
+  height: 500px;
+  width: 700px;
+  padding-top: 194px;
+  position: relative;
+}
+.triangle-video{
+  position: absolute;
+  margin: 50px -80px;
 }
 .hero-overlay {
   content: "";
@@ -169,8 +181,11 @@ body * {
   margin: -370px auto;
 }
 .title-20px {
-  margin: 0 auto 80px;
+  margin: 0 auto;
   font-size: 20px;
+}
+.control-logo{
+  margin-bottom: 30px;
 }
 .title-18px {
   margin: 0 auto;
@@ -236,6 +251,9 @@ body * {
 }
 .types-of-repair-header {
   text-align: center;
+}
+.types-of-repair-header>.control-logo{
+  margin-bottom: -40px;
 }
 .types-of-repair-main {
   display: grid;
@@ -475,16 +493,13 @@ ul {
   font-size: 13px;
   color: #959595;
 }
-.client-grid {
-  grid-gap: 20px 105px;
-}
 .button-client {
   margin-top: -120px;
   margin-bottom: 120px;
 }
+
 @media only screen and (min-width: 769px) {
   .questions {
-    max-width: 883px;
     position: relative;
     z-index: 1;
   }
@@ -492,8 +507,9 @@ ul {
 @media only screen and (min-width: 768px) {
 .questions-container {
   background-color: #131313;
-  margin-left: 320px;
-  margin-right: -130px;
+  max-width: 840px;
+  margin-left: 20vw;
+  margin-right: 20vw; 
 }
 }
 .questions-title {
@@ -527,7 +543,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: #e3b873;
-  margin: 52px auto 75px;
+  margin: 52px auto 20px;
   max-width: 590px;
 }
 .map-wrapper {
@@ -536,6 +552,47 @@ ul {
   padding: 200px 200px 0px; 
   margin: 0 0;
   justify-content: center;
+}
+.pig{
+      margin-top: 45px;
+      position: absolute;
+      margin-left: 52px;
+}
+.pig-text{
+  font-family: Nunito Sans;
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  padding-top: 5%;
+}
+.pig-save{
+  display: flex;
+  text-align: left;
+}
+.message-1{
+  position: absolute;
+  margin: 7px 5px;
+}
+.message-2{
+  position: absolute; 
+  margin: 7px 71px;
+}
+.message-3{
+  position: absolute; 
+  margin: 10px 74px;
+}
+
+.map-icons{
+  display: grid;
+  grid-template-columns: repeat(2, 65px);
+  align-content: center;
+  margin: 0 auto 20px;
+  max-width: 200px;
+}
+@media only screen and (min-width: 768px) {
+  .small-circle{
+    display: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   nav > .header-navigation {
@@ -649,7 +706,7 @@ ul {
   .projects {
     display: grid;
     background-color: #131313;
-    padding-bottom: 730px;
+    padding-bottom: 700px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -685,7 +742,7 @@ ul {
 @media only screen and (max-width: 768px) {
   .input-title {
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 50px;
+    margin-top: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -872,5 +929,44 @@ ul {
 @media only screen and (max-width: 768px) {
   footer {
     display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+.online-control-header>.title{
+  margin-bottom: 15px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .video {
+    height: 90px;
+    padding-top: 194px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .triangle-video{
+    position: absolute;
+    margin: -110px -4%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-container>.circle{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .small-circle{
+    position: absolute;
+    margin: -140px -17%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .map-icons{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(2, 65px);
+    align-content: center;
+    margin: 500px 33% 20px;
+    max-width: 200px;
   }
 }

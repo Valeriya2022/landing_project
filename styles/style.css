@@ -65,7 +65,7 @@ body * {
   padding-top: 194px;
   position: relative;
 }
-.triangle-video{
+.triangle-video {
   position: absolute;
   margin: 50px -80px;
 }
@@ -184,7 +184,7 @@ body * {
   margin: 0 auto;
   font-size: 20px;
 }
-.control-logo{
+.control-logo {
   margin-bottom: 30px;
 }
 .title-18px {
@@ -252,8 +252,8 @@ body * {
 .types-of-repair-header {
   text-align: center;
 }
-.types-of-repair-header>.control-logo{
-  margin-bottom: -40px;
+.types-of-repair-header > .control-logo {
+  /* margin-bottom: -40px; */
 }
 .types-of-repair-main {
   display: grid;
@@ -444,7 +444,7 @@ ol > li:before {
   margin-top: -100px;
 }
 .fantasies-images {
-  margin-top:38px;
+  margin-top: 38px;
 }
 .image-col-1 {
   margin-top: -265px;
@@ -520,12 +520,12 @@ ul {
   }
 }
 @media only screen and (min-width: 768px) {
-.questions-container {
-  background-color: #131313;
-  max-width: 840px;
-  margin-left: 20vw;
-  margin-right: 20vw; 
-}
+  .questions-container {
+    background-color: #131313;
+    max-width: 840px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
 }
 .questions-title {
   margin: 34px auto 0;
@@ -564,40 +564,40 @@ ul {
 .map-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 200px 200px 0px; 
+  padding: 200px 200px 0px;
   margin: 0 0;
   justify-content: center;
 }
-.pig{
-      margin-top: 45px;
-      position: absolute;
-      margin-left: 52px;
+.pig {
+  margin-top: 45px;
+  position: absolute;
+  margin-left: 52px;
 }
-.pig-text{
+.pig-text {
   font-family: Nunito Sans;
   font-size: 18px;
   line-height: 26px;
-  color: #E3B873;
+  color: #e3b873;
   padding-top: 5%;
 }
-.pig-save{
+.pig-save {
   display: flex;
   text-align: left;
 }
-.message-1{
+.message-1 {
   position: absolute;
   margin: 7px 5px;
 }
-.message-2{
-  position: absolute; 
+.message-2 {
+  position: absolute;
   margin: 7px 71px;
 }
-.message-3{
-  position: absolute; 
+.message-3 {
+  position: absolute;
   margin: 10px 74px;
 }
 
-.map-icons{
+.map-icons {
   display: grid;
   grid-template-columns: repeat(2, 65px);
   align-content: center;
@@ -605,7 +605,7 @@ ul {
   max-width: 200px;
 }
 @media only screen and (min-width: 768px) {
-  .small-circle{
+  .small-circle {
     display: none;
   }
 }
@@ -947,9 +947,9 @@ ul {
   }
 }
 @media only screen and (max-width: 768px) {
-.online-control-header>.title{
-  margin-bottom: 15px;
-}
+  .online-control-header > .title {
+    margin-bottom: 15px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .video {
@@ -959,24 +959,24 @@ ul {
   }
 }
 @media only screen and (max-width: 768px) {
-  .triangle-video{
+  .triangle-video {
     position: absolute;
     margin: -110px -4%;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hero-container>.circle{
+  .hero-container > .circle {
     display: none;
   }
 }
 @media only screen and (max-width: 768px) {
-  .small-circle{
+  .small-circle {
     position: absolute;
     margin: -140px -17%;
   }
 }
 @media only screen and (max-width: 768px) {
-  .map-icons{
+  .map-icons {
     display: grid;
     position: absolute;
     grid-template-columns: repeat(2, 65px);

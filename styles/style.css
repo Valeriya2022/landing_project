@@ -489,8 +489,12 @@ ul {
     z-index: 1;
   }
 }
+@media only screen and (min-width: 768px) {
 .questions-container {
   background-color: #131313;
+  margin-left: 320px;
+  margin-right: -130px;
+}
 }
 .questions-title {
   margin: 34px auto 0;
@@ -833,7 +837,7 @@ ul {
   .map {
     background-image: none;
     background-color: #131313;
-    height: 480px;
+    height: 600px;
     position: relative;
   }
 }

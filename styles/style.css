@@ -502,6 +502,21 @@ ul {
   .questions {
     position: relative;
     z-index: 1;
+    padding: 0 2%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .questions {
+    position: relative;
+    z-index: 1;
+    padding: 0 10%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .questions {
+    position: relative;
+    z-index: 1;
+    padding: 0 15%;
   }
 }
 @media only screen and (min-width: 768px) {

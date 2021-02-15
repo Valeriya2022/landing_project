@@ -195,8 +195,9 @@ body * {
 .online-control-input-wrapper {
   display: grid;
   max-width: 817px;
+  padding-right: 0;
   grid-template-rows: repeat(2, 30px);
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: repeat(3, 200px);
   grid-auto-flow: column;
   column-gap: 100px;
   text-align: left;
@@ -220,7 +221,7 @@ body * {
   border: none;
   background-color: white;
   border-bottom: 1px solid #ccc;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .online-control-input-wrapper > .title-wrapper-buttons {
@@ -280,7 +281,8 @@ input[type="checkbox"] {
   display: none;
 }
 .checkbox-label {
-  margin: 80px -350px;
+  margin-top: 80px;
+  margin-left: -400px;
 }
 label > input[type="checkbox"] + *::before {
   content: "";

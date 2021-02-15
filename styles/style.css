@@ -424,7 +424,7 @@ ol > li:before {
   margin-top: -100px;
 }
 .fantasies-images {
-  margin: 19px 19px;
+  margin-top:38px;
 }
 .image-col-1 {
   margin-top: -265px;
@@ -511,6 +511,7 @@ ul {
   background-image: url("../images/image-map-bacground.jpg");
   background-size: cover;
   height: 850px;
+  width: 100%;
   position: relative;
 }
 .map-title {
@@ -526,7 +527,7 @@ ul {
 .map-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 200px;
+  padding: 200px 200px 0px; 
   margin: 0 0;
   justify-content: center;
 }

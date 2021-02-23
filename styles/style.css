@@ -100,7 +100,7 @@ body * {
   color: #e3b873;
 }
 .title-wrapper {
-  max-width: 504px;
+  max-width: 600px;
   margin-top: 50px;
 }
 .paragraph {
@@ -133,7 +133,7 @@ body * {
   grid-template-rows: auto;
   grid-gap: 2vw;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .completed-projects {
     margin-top: 107px;
   }
@@ -213,7 +213,7 @@ body * {
 .footer {
   position: static;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .completed-projects {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -536,7 +536,7 @@ ul {
 .completed-projects-nav-items:hover{
   fill-opacity: 1;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .questions {
     position: relative;
     z-index: 1;
@@ -557,7 +557,7 @@ ul {
     padding: 0 15%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .questions-container {
     background-color: #131313;
     max-width: 840px;
@@ -640,34 +640,34 @@ ul {
   font-family: "Yeseva One";
   font-style: normal;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .mobile-video-svg {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .small-circle {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   nav > .header-navigation {
     display: none;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .header-navigation > .button {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .header {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .title {
     font-family: "Yeseva One", "Times New Roman", Times, serif;
     font-style: normal;
@@ -677,12 +677,12 @@ ul {
     text-transform: uppercase;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .short-title {
     padding: 0 50px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .header-content {
     height: 57px;
     align-items: center;
@@ -693,101 +693,101 @@ ul {
     margin: 0 auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .title-wrapper {
     max-width: 340px;
     margin: auto auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .paragraph {
     font-size: 14px;
     line-height: 17px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .paragraph-2 {
     font-size: 11px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .paragraph-3 {
     color: white;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .completed-projects-info {
     text-align: center;
     margin: 36px auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .image-info-wrapper {
     margin: 20px auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .mobile-image {
     display: grid;
     max-width: 100%;
     height: auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .desktop-image {
     display: none;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .subtitle {
     font-size: 14px;
     line-height: 20px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .images {
     display: flex;
     justify-content: center;
     margin: 70px auto 35px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-img {
     max-width: 100%;
     height: auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .projects {
     display: grid;
     background-color: #131313;
     padding-bottom: 700px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control {
     margin-top: -730px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-paragraph-wrapper {
     max-width: 340px;
     margin: 51px auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .margin-mobile {
     margin: 0px auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .container {
-    max-width: 340px;
+    max-width: 80%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-input-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -796,18 +796,18 @@ ul {
     text-align: left;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .input-title {
     color: rgba(255, 255, 255, 0.5);
     margin-top: 40px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-checkbox {
     padding-top: 25px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .text-input {
     display: block;
     border: none;
@@ -816,37 +816,37 @@ ul {
     width: 100%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .text-input::placeholder {
     color: white;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .text-input[placeholder]:focus {
     color: white;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .text-input:focus {
     background-color: #131313;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-input-wrapper > .title-wrapper-buttons {
     margin-top: 60px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .checkbox-label {
     margin: 25px 0 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .types-of-repair {
     margin-top: 400px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .types-of-repair-main {
     display: grid;
     grid-template-columns: 1fr;
@@ -854,14 +854,14 @@ ul {
     grid-gap: 70px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .title-18px {
     font-size: 15px;
     font-family: "Yeseva One";
     font-weight: bold;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .types-of-repair-info-block {
     background-color: white;
     height: 286px;
@@ -869,7 +869,7 @@ ul {
     padding-left: 32px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .types-of-repair-buttons {
     display: grid;
     grid-template-columns: 1fr;
@@ -877,23 +877,23 @@ ul {
     width: 152px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .button-repair {
     font-size: 13px;
     padding: 13px 2px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .types-of-repair-2 {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .fantasies {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .fantasies-mobile {
     display: flex;
     flex-direction: column;
@@ -902,52 +902,52 @@ ul {
     margin-bottom: -120px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .fantasies-title {
     text-align: center;
     margin: 0 5%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .clients {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .questions {
     background-color: #131313;
     max-width: 883px;
     padding: 130px 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .questions-title {
     margin: 34px auto 0;
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .questions-input-desktop {
     display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .label-input-question {
     margin-top: 40px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .questions-checkbox-label {
     margin: 20px 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .question-button {
     margin: 0 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map {
     background-image: none;
     background-color: #131313;
@@ -956,45 +956,45 @@ ul {
     padding: 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map > .hero-overlay {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .questions-wrapper {
     margin-bottom: -150px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map-title {
     font-size: 18px;
     margin: 50px auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map-wrapper {
     flex-direction: column-reverse;
     padding: 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map-img {
     margin-top: 50px;
     height: 220px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   footer {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .online-control-header > .title {
     margin-bottom: 15px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .video {
     height: 90px;
     width: 270px;
@@ -1002,24 +1002,24 @@ ul {
     position: relative;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .triangle-video {
     position: absolute;
     margin: -110px -4%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .hero-container > .circle {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .small-circle {
     position: absolute;
     margin: -140px -17%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .map-icons {
     display: grid;
     position: absolute;
@@ -1029,29 +1029,29 @@ ul {
     max-width: 200px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .completed-projects-nav-desktop {
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .mobile-nav-projects {
     display: flex;
     justify-content: space-between;
     margin: -130px 20px 130px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .video-mobile {
     display: grid;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .video-movile-div {
     margin-top: 50px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .desktop-video-svg {
     display: none;
   }

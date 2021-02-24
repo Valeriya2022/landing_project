@@ -182,7 +182,7 @@ body * {
   max-width: 680px;
   margin: 98px auto;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
   .short-title {
     max-width: 70px;
     line-height: 37px;
@@ -262,7 +262,6 @@ body * {
 }
 .title-black {
   color: #181818;
-  font-weight: bold;
 }
 .types-of-repair-header {
   text-align: center;
@@ -624,10 +623,10 @@ ul {
 
 .map-icons {
   display: grid;
-  grid-template-columns: repeat(2, 65px);
+  grid-template-columns: repeat(2, 30px);
+  grid-gap: 35px;
   align-content: center;
   margin: 0 auto 20px;
-  max-width: 200px;
 }
 .video-movile-div {
   display: flex;
@@ -675,6 +674,7 @@ ul {
     font-size: 23px;
     line-height: 30px;
     text-transform: uppercase;
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -689,7 +689,7 @@ ul {
     font-size: 11px;
     line-height: 18px;
     max-width: 339px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
   }
 }
@@ -950,7 +950,7 @@ ul {
   .map {
     background-image: none;
     background-color: #131313;
-    height: 540px;
+    height: 80%;
     position: relative;
     padding: 0;
   }
@@ -968,7 +968,7 @@ ul {
 @media only screen and (max-width: 1200px) {
   .map-title {
     font-size: 18px;
-    margin: 50px auto;
+    margin: 10px auto;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -980,7 +980,6 @@ ul {
 @media only screen and (max-width: 1200px) {
   .map-img {
     margin-top: 50px;
-    height: 220px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1020,12 +1019,10 @@ ul {
 }
 @media only screen and (max-width: 1200px) {
   .map-icons {
-    display: grid;
-    position: absolute;
-    grid-template-columns: repeat(2, 65px);
-    align-content: center;
-    margin: 500px 33% 20px;
-    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 95px;
   }
 }
 @media only screen and (max-width: 1200px) {

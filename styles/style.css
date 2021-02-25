@@ -638,6 +638,12 @@ ul {
   font-size: 18px;
   font-family: "Yeseva One";
   font-style: normal;
+  text-transform: uppercase;
+  background-color: #e3b873;
+  max-width: 200px;
+  text-align: center;
+  color: white;
+
 }
 @media only screen and (min-width: 1200px) {
   .mobile-video-svg {
@@ -783,11 +789,6 @@ ul {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-@media only screen and (max-width: 1200px) {
   .online-control-input-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -864,7 +865,7 @@ ul {
 @media only screen and (max-width: 1200px) {
   .types-of-repair-info-block {
     background-color: white;
-    height: 286px;
+    height: auto;
     margin: -150px 15% 0 0;
     padding-left: 32px;
   }

@@ -640,9 +640,10 @@ ul {
   font-style: normal;
   text-transform: uppercase;
   background-color: #e3b873;
-  max-width: 200px;
+  max-width: 250px;
   text-align: center;
   color: white;
+  margin-top: 160px;
 
 }
 @media only screen and (min-width: 1200px) {
@@ -882,6 +883,7 @@ ul {
   .button-repair {
     font-size: 13px;
     padding: 13px 2px;
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 1200px) {

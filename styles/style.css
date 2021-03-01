@@ -644,7 +644,6 @@ ul {
   text-align: center;
   color: white;
   margin-top: 160px;
-
 }
 @media only screen and (min-width: 1200px) {
   .mobile-video-svg {
@@ -657,7 +656,7 @@ ul {
     display: none;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 965px) {
   nav > .header-navigation {
     display: none;
   }
@@ -1053,5 +1052,15 @@ ul {
 @media only screen and (max-width: 1200px) {
   .desktop-video-svg {
     display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .title-wrapper-1 {
+    max-width: 500px;
   }
 }

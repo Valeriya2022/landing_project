@@ -383,7 +383,7 @@ label > input[type="checkbox"]:checked + *::before {
   grid-template-rows: auto;
   grid-auto-flow: row;
   text-align: left;
-  padding: 0 50px 20px;
+  padding-bottom: 20px;
 }
 .repair-input-title {
   color: rgba(255, 255, 255, 0.5);
@@ -480,6 +480,9 @@ ol > li:before {
 }
 .fantasies-images {
   margin-top: 38px;
+  display: flex;
+  justify-content: center;
+
 }
 .image-col-1 {
   margin-top: -265px;
@@ -656,11 +659,17 @@ ul {
     display: none;
   }
 }
-@media only screen and (max-width: 965px) {
-  nav > .header-navigation {
+@media only screen and (max-width: 800px) {
+  .header-content> nav > .header-navigation {
     display: none;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .images>nav > .header-navigation {
+    display: none;
+  }
+}
+
 
 @media only screen and (max-width: 1200px) {
   .header-navigation > .button {
@@ -694,7 +703,6 @@ ul {
     align-items: center;
     font-size: 11px;
     line-height: 18px;
-    max-width: 339px;
     justify-content: space-between;
     margin: 0 auto;
   }
@@ -781,6 +789,9 @@ ul {
   .online-control-paragraph-wrapper {
     max-width: 340px;
     margin: 51px auto;
+    height: 105px;
+    max-height: auto;
+    position: relative;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -795,6 +806,7 @@ ul {
     grid-template-rows: auto;
     grid-auto-flow: row;
     text-align: left;
+    max-width: 650px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -965,6 +977,7 @@ ul {
 @media only screen and (max-width: 1200px) {
   .questions-wrapper {
     margin-bottom: -150px;
+    max-width: 650px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1053,14 +1066,15 @@ ul {
   .desktop-video-svg {
     display: none;
   }
-}
-@media only screen and (max-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
+} 
 @media only screen and (max-width: 1200px) {
   .title-wrapper-1 {
     max-width: 500px;
   }
+}
+@media only screen and (max-width: 350px) {
+.fantasies-images-content {
+  width: 100%;
+  height: auto;
+}
 }

@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
     </head>
     
     <body>
@@ -65,20 +66,20 @@
                         <div class="subtitle-container">
     
                         </div>
-    
+                             
                     </div>
-                    <div class="images margin-mobile">
+                    <div class="images margin-mobile js-slider__images">
                         <nav>
-                            <ul class="header-navigation">
-                                <li class="header-navigation__item project-nav__item"><a href="#">Rostov-on-Don, Admiral</a></li>
-                                <li class="header-navigation__item project-nav__item"><a href="#">Sochi Thieves</a></li>
-                                <li class="header-navigation__item project-nav__item"><a href="#">Rostov-on-Don Patriotic</a></li>
+                            <ul class="header-navigation" id="js-slider-navigation">
+                                <li class="header-navigation__item project-nav__item"><a class="js-anchor">Rostov-on-Don, Admiral</a></li>
+                                <li class="header-navigation__item project-nav__item"><a class="js-anchor">Sochi Thieves</a></li>
+                                <li class="header-navigation__item project-nav__item"><a class="js-anchor">Rostov-on-Don Patriotic</a></li>
                                                             
                             </ul>
                             
                         </nav>
-                        <img src="images/image_2.png" alt="room" class="mobile-image">
-                        <img src="images/image_2.1.png" alt="room" class="desktop-image">
+                        <img src="images/image_2.png" alt=  "room" class="mobile-image">
+                        <!-- <img src="images/image_2.1.png" alt="room" class="desktop-image"> -->
                     </div>
                     <div class="mobile-nav-projects">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,39 +96,36 @@
                     <div class="info-desktop-position image-info-wrapper">
                         <div class="item">
                             <h2 class="title subtitle"><span class="intext">city:</span></h2>
-                            <p class="paragraph paragraph-2">Rostov-on-Don LCD admiral</p>
+                            <p class="paragraph paragraph-2 js-info-city"></p>
                         </div>
                         <div class="item">
                             <h2 class="title subtitle"><span class="intext">apartment area:</span></h2>
-                            <p class="paragraph paragraph-2">81 m2</p>
+                            <p class="paragraph paragraph-2 js-info-area"></p>
                         </div>
                         <div class="item">
                             <h2 class="title subtitle"><span class="intext">Repair time:</span></h2>
-                            <p class="paragraph paragraph-2">3.5 months</p>
+                            <p class="paragraph paragraph-2 js-info-repair-time"></p>
                         </div>
                         <div class="item">
                             <h2 class="title subtitle"><span class="intext">Repair Cost:</span></h2>
                             <p class="paragraph paragraph-2">Upon request</p>
                         </div>
                         <div class="completed-projects-nav-desktop">
+                            <div class="js-slider__arrow left">
+                            
                             <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z" fill="white"/>
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z" fill="white"/>
                                 </svg>
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect  class="completed-projects-nav-items" x="0.952759" y="0.456299" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity ="0.3"/>
-                                </svg>
-                                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect class="completed-projects-nav-items" x="0.0583191" y="0.456543" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
-                                </svg>
-                                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect class="completed-projects-nav-items" x="0.0583191" y="0.456543" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
-                                </svg>
+                            </div>
+                                <div class="js-slider__dots">
+                            </div>
+                            <div class="js-slider__arrow right">
                                 <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 0L41.6831 6.63804L35.0451 13.2761L34.0975 12.3285L39.788 6.63804L34.0975 0.947567L35.0451 0Z" fill="white"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7356 7.30784L0.227569 7.30784L0.22757 5.96777L40.7356 5.96778L40.7356 7.30784Z" fill="white"/>
                                 </svg>
-                                    
+                            </div>  
                                     
                                     
                                 
@@ -530,5 +528,6 @@
                 </div>
             </header>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>

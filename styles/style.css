@@ -178,6 +178,10 @@ body * {
 .project-nav__item:hover {
   text-decoration: underline;
 }
+.header-navigation > .project-nav__item.selected > a {
+  text-decoration: underline;
+  color: #e3b873;
+}
 .online-control-paragraph-wrapper {
   max-width: 680px;
   margin: 98px auto;
@@ -482,7 +486,6 @@ ol > li:before {
   margin-top: 38px;
   display: flex;
   justify-content: center;
-
 }
 .image-col-1 {
   margin-top: -265px;
@@ -535,8 +538,25 @@ ul {
   margin-top: -120px;
   margin-bottom: 120px;
 }
+.js-slider__dots {
+  display: flex;
+  justify-content: space-around;
+}
+
+.completed-projects-nav-items {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
 .completed-projects-nav-items:hover {
-  fill-opacity: 1;
+  background: rgba(255, 255, 255, 1);
+}
+.completed-projects-nav-items.active {
+  background: rgba(255, 255, 255, 1);
 }
 @media only screen and (min-width: 1200px) {
   .questions {
@@ -648,6 +668,15 @@ ul {
   color: white;
   margin-top: 160px;
 }
+.desktop-image {
+  display: none;
+}
+.desktop-image.active {
+  display: flex;
+}
+.js-slider__arrow {
+  cursor: pointer;
+}
 @media only screen and (min-width: 1200px) {
   .mobile-video-svg {
     display: none;
@@ -660,16 +689,15 @@ ul {
   }
 }
 @media only screen and (max-width: 800px) {
-  .header-content> nav > .header-navigation {
+  .header-content > nav > .header-navigation {
     display: none;
   }
 }
 @media only screen and (max-width: 1200px) {
-  .images>nav > .header-navigation {
+  .images > nav > .header-navigation {
     display: none;
   }
 }
-
 
 @media only screen and (max-width: 1200px) {
   .header-navigation > .button {
@@ -748,7 +776,7 @@ ul {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .desktop-image {
+  .desktop-image.active {
     display: none;
   }
 }
@@ -1066,15 +1094,15 @@ ul {
   .desktop-video-svg {
     display: none;
   }
-} 
+}
 @media only screen and (max-width: 1200px) {
   .title-wrapper-1 {
     max-width: 500px;
   }
 }
 @media only screen and (max-width: 350px) {
-.fantasies-images-content {
-  width: 100%;
-  height: auto;
-}
+  .fantasies-images-content {
+    width: 100%;
+    height: auto;
+  }
 }
